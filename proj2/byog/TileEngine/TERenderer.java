@@ -12,6 +12,7 @@ import java.io.Serializable;
  * messing with this renderer, unless you're trying to do something fancy like
  * allowing scrolling of the screen or tracking the player or something similar.
  */
+
 public class TERenderer implements Serializable {
     private static final int TILE_SIZE = 16;
     private int width;
